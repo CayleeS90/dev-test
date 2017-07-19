@@ -2,6 +2,8 @@
 	text-align: center;
 }
 
+/*navbar styles*/
+
 .navbar {
 	height: 65px;
 	background-color: #32323a;
@@ -30,6 +32,23 @@
 	margin-right: 15px;
 	margin-left: 15px;
 	border-bottom: .1px solid #3c3c47;
+	font-family: serif;
+	font-style: oblique;
+}
+
+.navbar-default .navbar-nav li a:hover {
+	background-color:  #474752;
+	color: white;
+}
+
+.navbar-default .navbar-nav .active a:hover {
+	background-color:  #474752;
+	color: white;
+}
+
+.navbar-default .navbar-nav .active a {
+	background-color:  #474752;
+	color: white;
 }
 
 .container-fluid .navbar-collapse, .container-fluid .navbar-header, .container .navbar-collapse, .container .navbar-header {
@@ -40,14 +59,27 @@
 	border-bottom: none;
 }
 
+/*main styles*/
+
 .fill-screen {
 	background-size: cover;
 	margin-top: -20px;
 }
 
+body {
+	position: relative;
+	
+}
+
+section {
+	padding-top: 60px;
+}
+
 section p {
 	padding: 30px;
 	padding-top: 10px;
+	max-width: 800px;
+	margin: auto;
 }
 
 ul {
@@ -60,16 +92,50 @@ li {
 	display: inline-block;
 }
 
-a img {
-	height: 40px;
+/*button styles*/
+
+section button {
+	height: 35px;
+	width: 260px;
+	background-color: #818285;
+	border: none;
+	border-radius: 5px;
+	font-style: oblique;
+	font-weight: bold;
 }
+
+.mission-btn {
+	color: #8fd4d6;
+}
+
+.team-btn {
+	color: #92a5d5;
+}
+
+.case-btn {
+	color: #dc3d28;
+}
+
+/*footer styles*/
 
 footer {
 	background-color: #32323a;
-	padding: 30px;
+	padding: 10px;
 	text-align: center;
-	color: aliceblue;
+	color: #78797d;
+	font-family: serif;
+	font-style: oblique;
 }
+
+footer p {
+	font-weight: bold;
+}
+
+footer img {
+	height: 35px;
+	
+}
+
 /*styles for case studies*/
 
 .tgif-img {
@@ -78,13 +144,14 @@ footer {
 	height: 307px;
 	width: 300px;
 	margin: auto;
-	
+	overflow: hidden;
 }
 
 .tgif-img img {
 	position: relative;
 	left: -20px;
-	top: -70px
+	top: -70px;
+	height: 300px;
 }
 
 .lego-img {
@@ -92,8 +159,6 @@ footer {
 	background-repeat: no-repeat;
 	height: 290px;
 	width: 250px;
-	
-
 }
 
 .seaworld-img {
@@ -102,7 +167,6 @@ footer {
 	height: 275px;
 	width: 277px;
 	margin: auto;
-
 }
 
 .case-img {
@@ -189,6 +253,7 @@ footer {
 .carousel-img {
 	margin: auto;
 	height: 260px !important;
+	padding-top: 30px;
 }
 
 .carousel-icon {
@@ -221,4 +286,8 @@ ol, ul {
 		border-bottom: none;
 		margin: 0;
 	}
+}
+
+::-webkit-scrollbar {
+	display: none;
 }

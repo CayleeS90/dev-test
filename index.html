@@ -7,9 +7,9 @@
 		<link href="bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
 		<link href="styles/index.css" type="text/css" rel="stylesheet">			
 	</head>
-	<body>
+	<body data-spy="scroll" data-target=".navbar" data-offset"10">
 		<header>
-			<nav class="navbar navbar-default navbar-fixed-top cbp-af-header" role="navigation">
+			<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
 				<div class="container-fluid">
 					<!-- Brand and toggle get grouped for better mobile display -->
 					<div class="navbar-header">
@@ -22,16 +22,16 @@
 					<!-- Collect the nav links, forms, and other content for toggling -->
 					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 						<ul class="nav navbar-nav">
-							<li><a href="#">Mission</a></li> 
-							<li><a href="#">Team</a></li>
-							<li><a href="#">Case Studies</a></li>
+							<li><a href="#mission">MISSION</a></li> 
+							<li><a href="#team">TEAM</a></li>
+							<li><a href="#case-studies">CASE STUDIES</a></li>
 						</ul>
 					</div><!-- /.navbar-collapse -->
 				</div><!-- /.container-fluid -->
 			</nav>
 		</header>
 		<div class="container-fluid">
-			<section class="row">
+			<section id ="home" class="row">
 				<div class="fill-screen" style="background-image: url(images/main.png)">
 				</div>
 			</section>
@@ -44,13 +44,14 @@
 				<p>
 					Lorem ipsum dolor sit amet, massa nulla quo. Nulla vehicula vestibulum enim felis suspendisse tellus, consectetur urna placerat cras mus erat. Sit turpis curabitur molestie magna lobortis, nulla praesent wisi vitae nec nunc et, at ut sit venenatis ullamcorper a, in vel consequat. Dolor arcu ipsam tempus sit, aliquet libero imperdiet, sit arcu interdum ipsum quis aptent non. Elit dolor sit ac eget tincidunt, ullamcorper vitae volutpat arcu libero tristique, ipsum wisi hymenaeos ornare wisi at, eu egestas donec venenatis dictum eget.
 				</p>
+				<button class="mission-btn"type="button">LOREM IPSUM DOLOR IPSUM</button>
 			</section>
 			<section id="team" class="row">
 				<h2>OUR TEAM</h2>
 				<p>
 					Lorem ipsum dolor sit amet, massa nulla quo. Nulla vehicula vestibulum enim felis suspendisse tellus, consectetur urna placerat cras mus erat. Sit turpis curabitur molestie magna lobortis, nulla praesent wisi vitae nec nunc et, at ut sit venenatis ullamcorper a, in vel consequat. Dolor arcu ipsam tempus sit, aliquet libero imperdiet, sit arcu interdum ipsum quis aptent non.
 				</p>
-	
+				<button class="team-btn"type="button">LOREM IPSUM DOLOR</button>
 		<div id="myCarousel" class="carousel slide" data-ride="carousel">
 				
 			<div class="carousel-inner">
@@ -108,6 +109,7 @@
 			</section>
 			<section id="case-studies" class="row">
 				<h2>FEATURED LEARNINGS &amp; CASE STUDIES</h2>
+				<button class="case-btn" type="button">SEE ALL CASE STUDIES</button>
 				<div class="case-img tgif-img">
 					<img src="images/tgif2.png">
 				</div>
@@ -135,7 +137,8 @@
 			  </li>
 			</ul>
 			<P>
-				1600 E 8th Ave #133 / Tampa, FL 33605 (813)281-0088 / info&#64;chappellroberts.com &copy; Lorem Ipsum 
+				1600 E 8th Ave #133 / Tampa, FL 33605  <br />
+				(813)281-0088 / info&#64;chappellroberts.com <br /> &copy; Lorem Ipsum 
 			</P>
 		</footer>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
