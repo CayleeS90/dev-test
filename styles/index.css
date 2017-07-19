@@ -73,7 +73,7 @@ footer {
 /*styles for case studies*/
 
 .tgif-img {
-	background-image: url(images/tgif-img1.png);
+	background-image: url(/images/tgif-img1.png);
 	background-repeat: no-repeat;
 	height: 307px;
 	width: 300px;
@@ -88,7 +88,7 @@ footer {
 }
 
 .lego-img {
-	background-image: url(images/legos-img1.png);
+	background-image: url(/images/legos-img1.png);
 	background-repeat: no-repeat;
 	height: 290px;
 	width: 250px;
@@ -97,7 +97,7 @@ footer {
 }
 
 .seaworld-img {
-	background-image: url(images/sea-world-img1.png);
+	background-image: url(/images/sea-world-img1.png);
 	background-repeat: no-repeat;
 	height: 275px;
 	width: 277px;
