@@ -1,5 +1,6 @@
 .container-fluid {
 	text-align: center;
+	padding: 0;
 }
 
 /*navbar styles*/
@@ -63,22 +64,25 @@
 
 .fill-screen {
 	background-size: cover;
-	margin-top: -20px;
+}
+.row  {
+	margin: auto;
 }
 
 body {
 	position: relative;
-	
+	color: #818285;
+
 }
 
 section {
+	max-width: 900px;
 	padding-top: 60px;
 }
 
 section p {
 	padding: 30px;
 	padding-top: 10px;
-	max-width: 800px;
 	margin: auto;
 }
 
@@ -123,7 +127,7 @@ footer {
 	padding: 10px;
 	text-align: center;
 	color: #78797d;
-	font-family: serif;
+	font-family: "BioRhyme", serif;
 	font-style: oblique;
 }
 
@@ -133,36 +137,38 @@ footer p {
 
 footer img {
 	height: 35px;
-	
 }
 
 /*styles for case studies*/
 
+.case-sub-head {
+	padding-bottom: 30px;
+	text-align: center;
+}
+
 .tgif-img {
-	background-image: url(/images/tgif-img1.png);
+	background-image: url(../images/tgif-img1.PNG);
 	background-repeat: no-repeat;
 	height: 307px;
 	width: 300px;
 	margin: auto;
-	overflow: hidden;
 }
 
 .tgif-img img {
 	position: relative;
 	left: -20px;
 	top: -70px;
-	height: 300px;
 }
 
 .lego-img {
-	background-image: url(/images/legos-img1.png);
+	background-image: url(../images/legos-img1.png);
 	background-repeat: no-repeat;
 	height: 290px;
 	width: 250px;
 }
 
 .seaworld-img {
-	background-image: url(/images/sea-world-img1.png);
+	background-image: url(../images/sea-world-img1.png);
 	background-repeat: no-repeat;
 	height: 275px;
 	width: 277px;
@@ -173,6 +179,23 @@ footer img {
 	display: inline-block;
 }
 
+.case-sub-head {
+	float: left;
+	padding-left: 70px
+}
+
+.case-sub-head h2{
+	padding-bottom: 20px;
+}
+
+h2 {
+	font-family: "BioRhyme", serif;
+}
+
+h2 span {
+	font-size: 45px;
+	font-weight: bold;
+}
 /*styles for animated menu button*/
 
  .navbar-toggle {
