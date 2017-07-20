@@ -3,6 +3,8 @@ $(function() {
 	$(window).on("load resize", function () {
 		$(".fill-screen").css("height", window.innerHeight);
 	});
+	//initialize WOW for animation
+	new WOW().init();
 });
 
 $(function() {
@@ -15,3 +17,4 @@ $(function() {
 	$('#myCarousel').on('slide.bs.carousel', function () {
   });
 });
+
