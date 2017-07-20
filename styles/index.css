@@ -87,6 +87,9 @@ section p {
 }
 
 h2 {
+	font-family: ;
+	font-size: 25px;
+	letter-spacing: -0.5px;
 	padding: 0 5px;
 }
 
@@ -124,94 +127,27 @@ section button {
 	color: #dc3d28;
 }
 
-/*footer styles*/
-
-footer {
-	background-color: #32323a;
-	padding: 10px;
-	text-align: center;
-	color: #78797d;
-	font-family: "BioRhyme", serif;
-	font-style: oblique;
-}
-
-footer p {
-	font-weight: bold;
-}
-
-footer img {
-	height: 35px;
-}
-
 /*styles for case studies*/
 
+
 .case-sub-head {
-	padding-bottom: 100px;
+	padding-bottom: 10px;
 	text-align: center;
 }
 
-.tgif-img {
-	background-image: url(../images/tgif-img1.PNG);
-	background-repeat: no-repeat;
-	height: 307px;
-	width: 300px;
-	margin: auto;
-}
-
-.tgif-img img {
-	position: relative;
-	left: 20px;
-	top: -90px;
-}
-
-.lego-img {
-	background-image: url(../images/legos-img1.png);
-	background-repeat: no-repeat;
-	height: 290px;
-	width: 250px;
-	margin: auto;
-}
-
-lego-img img {
-	position: relative;
-
-	padding-right: 30px;
-}
-
-.seaworld-img {
-	background-image: url(../images/sea-world-img1.png);
-	background-repeat: no-repeat;
-	height: 275px;
-	width: 277px;
-	margin: auto;
-}
-
-.seaworld-img img {
-	position: relative;
-	left: 20px;
-	top: -30px;	
-}
-
-.case-img {
-	display: inline-block;
-}
-
-.case-sub-head {
-	float: left;
-}
-
-.case-sub-head h2{
+.case-sub-head h2{ 
 	padding-bottom: 20px;
 }
 
-h2 {
-	font-family: "BioRhyme", serif;
+.overlay {
+	position: absolute;
+	z-index: 2;
 }
 
 h2 span {
-	font-size: 45px;
-	font-weight: bold;
+	font-size: 35px;
 }
+
 /*styles for animated menu button*/
 
  .navbar-toggle {
@@ -304,9 +240,28 @@ ol, ul {
 	margin-top: 20px;
 }
 
+/*footer styles*/
+
+footer {
+	background-color: #32323a;
+	padding: 10px;
+	text-align: center;
+	color: #78797d;
+	font-family: "BioRhyme", serif;
+	font-style: oblique;
+}
+
+footer p {
+	font-weight: bold;
+}
+
+footer img {
+	height: 35px;
+}
+
 /*media queries (min-width 768px)*/
 @media (min-width: 768px) {
-	
+/*	nav styles*/
 	.navbar {
 		margin: auto;
 		height: 0px;
@@ -326,6 +281,51 @@ ol, ul {
 		border-bottom: none;
 		margin: 0;
 	}
+	
+/*	main styles*/
+	
+	.case-sub-head {
+		float: left;
+		margin-left: 140px;
+		margin-bottom: 100px;
+ }
+	
+	h2 {
+		font-family: "BioRhyme", serif;
+		font-size: 23px;
+	}
+	
+	h2 span {
+		font-size: 33px;
+		font-weight: bold;
+  }
+/*	image styles*/
+	
+	.layered-img {
+		float: right;
+	}
+	
+	.tgif-img {
+		position: relative; 
+		right: 140px;
+		z-index: 1;
+	}
+	
+	.lego-img {
+		position: relative;
+		right: 130px;
+		z-index: 0;
+	}
+	.sea-img {
+		position: relative;
+		left: 450px;
+		z-index: 2;
+	}
+	
+	.case-container {
+		margin: auto;
+	}
+	
 }
 
 ::-webkit-scrollbar {
