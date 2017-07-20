@@ -87,7 +87,6 @@ section p {
 }
 
 h2 {
-	font-family: ;
 	font-size: 25px;
 	letter-spacing: -0.5px;
 	padding: 0 5px;
@@ -129,6 +128,14 @@ section button {
 
 /*styles for case studies*/
 
+.case-sub-head {
+	padding-bottom: 100px;
+	text-align: center;
+}
+
+.case-img {
+	display: inline-block;
+}
 
 .case-sub-head {
 	padding-bottom: 10px;
@@ -260,7 +267,9 @@ footer img {
 }
 
 /*media queries (min-width 768px)*/
+
 @media (min-width: 768px) {
+	
 /*	nav styles*/
 	.navbar {
 		margin: auto;
@@ -320,10 +329,6 @@ footer img {
 		position: relative;
 		left: 450px;
 		z-index: 2;
-	}
-	
-	.case-container {
-		margin: auto;
 	}
 	
 }
