@@ -225,12 +225,17 @@ h2 span {
 /*team carousel styles*/
 
 #myCarousel {
-	max-width: 300px;
 	margin: auto;
 }
 
 .carousel-inner {
 	height: 345px;
+	overflow: visible;
+	overflow-y: scroll;
+}
+
+.active-slider {
+	min-width: 700px;
 }
 
 .carousel-indicators {
@@ -350,10 +355,7 @@ footer img {
 	
 /*team carousel styles*/
 	
-	.carousel {
-		display: none;
-	}
-	
+/*  Hover State
 	.team-container {
 		display: block;	
 	}
@@ -405,6 +407,7 @@ footer img {
 	.hover-vanessa {
 		top: 9px;
 	}
+*/
 	
 /*image styles*/
 	

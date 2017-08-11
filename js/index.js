@@ -13,7 +13,7 @@ $(function () {
 	$(this).toggleClass("active");
 	});
 		// sliding carousel
-	$('.carousel').carousel();
+	$('.carousel').carousel("pause");
 	$('#myCarousel').on('slide.bs.carousel', function () {
   });
 });
