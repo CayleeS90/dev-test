@@ -235,7 +235,7 @@ h2 span {
 }
 
 .active-slider {
-	min-width: 700px;
+	min-width: 750px;
 }
 
 .carousel-indicators {
@@ -269,12 +269,25 @@ h2 span {
 	height: 30px;
 }
 
-ol, ul {
-	margin-top: 20px;
+.hover-over-container {
+	position: absolute;
+	background-color: white;
+	height: 300px;
+	width: 200px;
+	top: 37px;
+	z-index: 2;
 }
 
-.team-item {
-	display: none;
+.hover-over-content {
+padding-top: 70px;
+}
+
+.line-img {
+	width: 115px;
+}
+
+ol, ul {
+	margin-top: 20px;
 }
 
 /*footer styles*/
@@ -352,62 +365,6 @@ footer img {
 		font-size: 40px;
 		font-weight: bold;
   }
-	
-/*team carousel styles*/
-	
-/*  Hover State
-	.team-container {
-		display: block;	
-	}
-	
-	.team-item {
-		position: relative;
-		display: inline-block;
-		width: 290px;
-	}
-	
-	.team-items {
-		position: relative;
-	}
-	
-	.hover-over-container {
-		position: absolute;
-		background-color: white;
-		height: 355px;
-		width: 310px;
-		z-index: 2;
-		display: none;
-  }
-	
-	.hover-over-container img {
-		width: 140px;
-	}
-
-	.top-line {
-		position: relative;
-		top: -60px;
-	}
-	
-	.hover-over-content {
-		position: relative;
-		top: 140px;
-		right: 16px;
-	}
-
-	.hover-over-quote p {
-		position: relative;
-		color: black;
-		top: -25px;
-	}
-
-	.hover-alan {
-		top: 18px;
-	}
-	
-	.hover-vanessa {
-		top: 9px;
-	}
-*/
 	
 /*image styles*/
 	
