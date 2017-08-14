@@ -6,32 +6,20 @@ $(function () {
 	//initialize WOW for animation
 	new WOW().init();
 });
-
+//	js for animated menu button
 $(function () {
-	//	js for animated menu button
 	$(".navbar-toggle").on("click", function () {
 	$(this).toggleClass("active");
 	});
 		// sliding carousel
-	$('.carousel').carousel("pause");
+	$('.carousel').carousel();
 	$('#myCarousel').on('slide.bs.carousel', function () {
   });
 });
 //hover over quote
-	$("#josh").hover(function() {
-		$(this).find(".hover-over-container").show();
-	}, function() {
-		$(this).find(".hover-over-container").hide();
-	});
+	$(".hover-over").hover(function() {
+			$(this).find(".hover-over-container").show();
+		}, function() {
+			$(this).find(".hover-over-container").hide();
+		});
 
-	$("#alan").hover(function() {
-		$(this).find(".hover-over-container").show();
-	}, function() {
-		$(this).find(".hover-over-container").hide();
-	});
-
-	$("#vanessa").hover(function() {
-		$(this).find(".hover-over-container").show();
-	}, function() {
-		$(this).find(".hover-over-container").hide();
-	});
