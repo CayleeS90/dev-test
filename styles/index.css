@@ -275,6 +275,7 @@ h2 span {
 	height: 300px;
 	width: 200px;
 	top: 37px;
+	display: none;
 	z-index: 2;
 }
 
