@@ -181,6 +181,7 @@ h2 span {
 	border: solid;
 	border-radius: 50%;
 	height: 45px;
+	 margin-right: 20px;
 }
 
 .navbar-default .navbar-toggle{
@@ -220,6 +221,11 @@ h2 span {
 
 .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
   background-color: transparent; 
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+	background-color: #474752;
+  color: white;
 }
 
 /*team carousel styles*/
@@ -273,18 +279,28 @@ h2 span {
 	position: absolute;
 	background-color: white;
 	height: 300px;
-	width: 200px;
-	top: 37px;
+	width: 220px;
+	padding-top: 50px;
+	padding-left: 30px;
+	top: 25px;
+	
 	display: none;
 	z-index: 2;
 }
 
-.hover-over-content {
-padding-top: 70px;
+.hover-over-quote {
+	color: #c8c9cb;
+	font-family: "BioRhyme", serif;	
+	font-style: italic;
+	padding: 15px 0;
+}
+
+quote {
+	font-size: 30px;
 }
 
 .line-img {
-	width: 115px;
+	width: 110px;
 }
 
 ol, ul {
@@ -299,7 +315,7 @@ footer {
 	text-align: center;
 	color: #78797d;
 	font-family: "BioRhyme", serif;
-	font-style: oblique;
+	font-style: italic;
 }
 
 footer p {
