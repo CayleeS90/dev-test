@@ -28,7 +28,7 @@
 }
 
 .navbar-default .navbar-nav li a {
-	color: white !important;
+	color: white !important; /*smooth scrolling changes to trasparent had to add important*/
 	text-align: left;
 	margin-right: 15px;
 	margin-left: 15px;
@@ -224,6 +224,7 @@ h2 span {
 }
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+	/*smooth scrolling changes the color of the navbar elements had to add this to css for specificity*/
 	background-color: #474752;
   color: white;
 }
