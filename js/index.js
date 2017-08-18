@@ -20,7 +20,7 @@ $(function () {
 	}, function () {
 		$(this).find(".hover-over-container").hide();
 	});
-	// smooth scrolling
+	 //smooth scrolling
 	$("nav a").bind("click", function () {
 		$("html, body").stop().animate({
 			scrollTop: $($(this).attr("href")).offset().top

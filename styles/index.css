@@ -28,7 +28,7 @@
 }
 
 .navbar-default .navbar-nav li a {
-	color: white;
+	color: white !important;
 	text-align: left;
 	margin-right: 15px;
 	margin-left: 15px;
