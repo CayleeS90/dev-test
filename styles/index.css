@@ -69,7 +69,6 @@
 body {
 	position: relative;
 	color: #818285;
-
 }
 
 section {
@@ -104,8 +103,8 @@ li {
 section button {
 	height: 35px;
 	width: 260px;
-	background-color: #818285;
-	border: none;
+	background-color: transparent;
+	border: 1px solid;
 	border-radius: 5px;
 	font-style: oblique;
 	font-weight: bold;
@@ -113,14 +112,17 @@ section button {
 
 .mission-btn {
 	color: #8fd4d6;
+	border-color: #8fd4d6; 
 }
 
 .team-btn {
 	color: #92a5d5;
+	border-color: #92a5d5;
 }
 
 .case-btn {
 	color: #dc3d28;
+	border-color: #dc3d28;
 }
 
 /*styles for case studies*/
@@ -181,7 +183,7 @@ h2 span {
 	border: solid;
 	border-radius: 50%;
 	height: 45px;
-	 margin-right: 20px;
+	margin-right: 20px;
 }
 
 .navbar-default .navbar-toggle{
